@@ -1,0 +1,23 @@
+<AlapWidget>:
+    canvas:
+        Color:
+            rgba:1,0,0,1
+        Rectangle:
+            pos:100,100
+            size:50,50
+        Color:
+            rgba:1,1,1,1
+        Rectangle:
+            source:"images/jack.png"
+            pos:640,10
+            size:572,572
+        Color:
+            rgba:0,1,0,1
+        Ellipse:
+            pos:400,100
+            size:100,150
+    Button:
+        text:"click me!"
+        size_hint:0.2,0.2
+        pos_hint:{"top":1}
+        on_press:print("Hello Jack!")

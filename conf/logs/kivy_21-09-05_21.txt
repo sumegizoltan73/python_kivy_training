@@ -1,0 +1,43 @@
+[INFO   ] Logger: Record log in C:\Adatok\python\virtualenv\kivy_venv\share\kivy-tutorial/conf\logs\kivy_21-09-05_21.txt
+[INFO   ] deps: Successfully imported "kivy_deps.angle" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.glew" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.sdl2" 0.3.1
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "C:\Adatok\python\virtualenv\kivy_venv\lib\site-packages\kivy\__init__.py"
+[INFO   ] Python: v3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)]
+[INFO   ] Python: Interpreter at "C:\Adatok\python\virtualenv\kivy_venv\Scripts\python.exe"
+[INFO   ] Factory: 186 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL" graphics system
+[INFO   ] GL: GLEW initialization succeeded
+[INFO   ] GL: Backend used <glew>
+[INFO   ] GL: OpenGL version <b'4.6.13596 Compatibility Profile Context 20.10.16 27.20.1016.1'>
+[INFO   ] GL: OpenGL vendor <b'ATI Technologies Inc.'>
+[INFO   ] GL: OpenGL renderer <b'AMD Radeon(TM) Vega 8 Graphics'>
+[INFO   ] GL: OpenGL parsed version: 4, 6
+[INFO   ] GL: Shading version <b'4.60'>
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <32>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "C:/Adatok/python/virtualenv/kivy_venv/share/kivy-tutorial/05_button.py", line 34, in <module>
+[WARNING] stderr:     TesztApp().run()
+[WARNING] stderr:   File "C:\Adatok\python\virtualenv\kivy_venv\lib\site-packages\kivy\app.py", line 949, in run
+[WARNING] stderr:     self._run_prepare()
+[WARNING] stderr:   File "C:\Adatok\python\virtualenv\kivy_venv\lib\site-packages\kivy\app.py", line 919, in _run_prepare
+[WARNING] stderr:     root = self.build()
+[WARNING] stderr:   File "C:/Adatok/python/virtualenv/kivy_venv/share/kivy-tutorial/05_button.py", line 32, in build
+[WARNING] stderr:     return AlapWidget()
+[WARNING] stderr:   File "C:/Adatok/python/virtualenv/kivy_venv/share/kivy-tutorial/05_button.py", line 16, in __init__
+[WARNING] stderr:     gomb1 = Button(text="Gomb 1", size=(100, 50), pos=(0,0), id="gomb1")
+[WARNING] stderr:   File "C:\Adatok\python\virtualenv\kivy_venv\lib\site-packages\kivy\uix\behaviors\button.py", line 121, in __init__
+[WARNING] stderr:     super(ButtonBehavior, self).__init__(**kwargs)
+[WARNING] stderr:   File "C:\Adatok\python\virtualenv\kivy_venv\lib\site-packages\kivy\uix\label.py", line 318, in __init__
+[WARNING] stderr:     super(Label, self).__init__(**kwargs)
+[WARNING] stderr:   File "C:\Adatok\python\virtualenv\kivy_venv\lib\site-packages\kivy\uix\widget.py", line 350, in __init__
+[WARNING] stderr:     super(Widget, self).__init__(**kwargs)
+[WARNING] stderr:   File "kivy\_event.pyx", line 245, in kivy._event.EventDispatcher.__init__
+[WARNING] stderr: TypeError: object.__init__() takes exactly one argument (the instance to initialize)

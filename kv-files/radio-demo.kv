@@ -1,0 +1,40 @@
+<AlapWidget>:
+    Label:
+        text:"Mi a nemed?"
+        pos_hint:{"center_x":0.2, "y":0.85}
+        size_hint:0.2, 0.2
+        font_size:25
+
+    CheckBox:
+        group:"nemek"
+        pos_hint:{"center_x":0.2, "y":0.75}
+        size_hint:0.2, 0.2
+        on_press:print(Ferfi.text)
+    Label:
+        id:Ferfi
+        text:"Férfi"
+        pos_hint:{"center_x":0.3, "y":0.75}
+        size_hint:0.2, 0.2
+        font_size:20
+    CheckBox:
+        group:"nemek"
+        pos_hint:{"center_x":0.2, "y":0.5}
+        size_hint:0.2, 0.2
+        on_press:print(No.text)
+    Label:
+        id:No
+        text:"Nő"
+        pos_hint:{"center_x":0.3, "y":0.5}
+        size_hint:0.2, 0.2
+        font_size:20
+    CheckBox:
+        group:"nemek"
+        pos_hint:{"center_x":0.2, "y":0.25}
+        size_hint:0.2, 0.2
+        on_press:print(Kerdeses.text)
+    Label:
+        id:Kerdeses
+        text:"Még nem tudom"
+        pos_hint:{"center_x":0.3, "y":0.25}
+        size_hint:0.2, 0.2
+        font_size:20
